@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get your favourite Team's score on your WhatsApp</title>
+        <link rel="icon" href="../static/cricket.png" type="image/png">
+        <link rel="stylesheet" href="../static/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        
+        <meta name=”viewport” content="width=device-width, initial-scale=1">
+
+        <!-- <script>
+            function congratulation() {
+                
+                var string = document.getElementById("instruction2").innerHTML = "Congratulation You are Subscribed. \n Now follow these steps:";
+                return string;
+
+            }
+        </script> -->
+
+    </head>
+    <body>
+        <div class="cointainer" id="container">
+            <div class="info" id="info">
+                <p>YOUR DATA WILL NEVER BE USED FOR ANY OTHER PURPOSES.</p>
+            </div><br>
+            <div class="instruction1" id="instruction1">
+                <p>Select your favourite cricket team and enter your WhatsApp Number <span class="high">to recieve </span> latest updates.</p>
+            </div>
+            <div class="details" id="details">
+                <div class="inner">
+                    <!-- <select name="" id="">
+                        <option value=""></option>
+                    </select> -->
+                    <form method="POST">
+                        <input class="team" id="team" type="text" placeholder="Your Favourite Team Name" required><br>
+                        <span></span><br>
+                        <input class="number" id="number" type="number" min="10" max="10" placeholder="Enter Your WhatsApp Number" required><br>
+                        <p></p>
+                        <div class="butt" id="butt">
+                            <button type="submit" >Submit</button>
+                        </div>
+                    </form>
+                    <!-- <br>
+                    <div class="instruction2" id="instruction2">
+                        <p></p>
+                    </div> -->
+                </div>
+                
+            </div>
+            
+        </div>
+    </body>
+</html>
