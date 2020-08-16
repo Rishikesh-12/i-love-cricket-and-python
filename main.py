@@ -71,6 +71,6 @@ api_key = "Sm7guOGwvpeljJ5KyBNlQhd6J813"
 for index in range(0,len(teamName)):    
     whatsapp_message=get_unique_id(url_get_all_matches,api_key,teamName[index])
     account_sid = "AC286b95e9721739e939d7b38995b308da"
-    auth_token = "72f26c8612f299a3e9de6416e8ebf4b9"
+    auth_token = "729bae9cd5c5dc86a712f973c2263c29"
     client = Client(account_sid, auth_token)
     message = client.messages.create( body=whatsapp_message, from_='whatsapp:+14155238886', to=f'whatsapp:+91 {int(whatsappNum[index])} ')
